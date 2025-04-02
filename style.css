@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#txt--result {
+  display: none;
+}
+
+.container {
+  width: 500px;
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: rgb(118, 151, 186);
+}
+.header--1 {
+  width: fit-content;
+  margin: auto;
+  padding: 15px 0px;
+}
+
+.header--2 {
+  width: fit-content;
+  margin: auto;
+  padding: 5px 0px;
+}
+.intro--para {
+  width: fit-content;
+  margin: auto;
+  padding: 5px 0px;
+}
+.form--div {
+  width: fit-content;
+  margin: auto;
+}
+
+.form--fields > div {
+  margin: 5px;
+  padding: 5px;
+}
+
+.btn--submit {
+  width: 100%;
+
+  cursor: pointer;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+
+  border-radius: 5px;
+}
+
+.btn--submit:hover {
+  background-color: rgb(30, 169, 157);
+  color: rgb(244, 244, 244);
+}
+
+.disp--age {
+  width: fit-content;
+  margin: auto;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.input--date > input {
+  width: 250px;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
